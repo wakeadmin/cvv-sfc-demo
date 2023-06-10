@@ -10,7 +10,7 @@
   "module": "./lib/index.js",
   "typings": "./dist/main.d.ts",
   "scripts": {
-    "postinstall": "npm run link",
+    "postinstall": "node ./scripts/postinstall.mjs",
     "link": "node ./scripts/link.mjs",
     "declaration": "vue-tsc --emitDeclarationOnly --declaration",
     "build:vue3": "npm run link && vite build",

@@ -1,0 +1,22 @@
+{
+  "name": "playground-vue2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "switch-vue 2 && unlink-vue",
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "components": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "vue": "^2.7.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}

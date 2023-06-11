@@ -9,3 +9,5 @@ const TARGET = path.resolve(__dirname, '../node_modules/vue');
 if (fs.existsSync(TARGET)) {
   fs.unlinkSync(TARGET);
 }
+
+console.log('[component] unlinked')

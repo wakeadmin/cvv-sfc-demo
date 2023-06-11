@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predev": "switch-vue 2 && unlink-vue",
+    "predev": "switch-vue 2 && link-vue 2",
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"

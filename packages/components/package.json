@@ -4,7 +4,8 @@
   "description": "组件库",
   "bin": {
     "switch-vue": "bin/switch.mjs",
-    "unlink-vue": "bin/unlink.mjs"
+    "unlink-vue": "bin/unlink.mjs",
+    "link-vue": "bin/link.mjs"
   },
   "main": "./lib/index.cjs",
   "module": "./lib/index.js",
